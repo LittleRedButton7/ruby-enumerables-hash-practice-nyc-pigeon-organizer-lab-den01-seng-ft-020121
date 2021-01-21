@@ -14,6 +14,7 @@ def nyc_pigeon_organizer(data)
           final_list[name] = {}
           
         end
+        
       end
     end
     final_list
