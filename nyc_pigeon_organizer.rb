@@ -15,10 +15,10 @@ def nyc_pigeon_organizer(data)
         end
         if !final_list[name][key]
           !final_list[name][key] = []
-      end
+        end
       final_list[name][key].push(inner_key.to_s)
+      end
     end
-  end
   end  
   binding.pry
 end
