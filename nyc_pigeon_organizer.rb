@@ -11,11 +11,11 @@ def nyc_pigeon_organizer(data)
     value.each do |inner_key, names|
       names.each do
         if !final_list[name]
-          final_list[name] = {}
+          !final_list[name] = {}
           
         end
         if !final_list[name][key]
-          final_list[name][key] = []
+          !final_list[name][key] = []
       end
     end
     final_list
