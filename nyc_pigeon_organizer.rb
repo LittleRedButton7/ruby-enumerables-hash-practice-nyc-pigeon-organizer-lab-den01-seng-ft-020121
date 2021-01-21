@@ -18,8 +18,9 @@ def nyc_pigeon_organizer(data)
           !final_list[name][key] = []
       end
       final_list[name][key].push(inner_key.to_s)
-    end
     binding.pry
+    end
+    
   end  
   
 end
