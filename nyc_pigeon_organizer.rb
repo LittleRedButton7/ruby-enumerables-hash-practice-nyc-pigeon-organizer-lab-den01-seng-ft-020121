@@ -9,10 +9,9 @@ def nyc_pigeon_organizer(data)
   final_results = data.each_with_object({}) do |(key, value), final_list|
 
     value.each do |inner_key, names|
-      names.each do
+      names.each do |name|
         if !final_list[name]
           final_list[name] = {}
-          
         end
         if !final_list[name][key]
           !final_list[name][key] = []
