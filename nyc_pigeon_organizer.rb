@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
   #so, essentially, we have to break apart or abstract that data into a form that we want sorted by name
   #once we abstract that data, we need to organize by the name being the new key and the hash of attributes being the value 
   
-  data.each_with_object({}) do |(key, value), a|
-    a[k] = v + 3
-end     
+  data.each_with_object({}) do |(key, value), final_list|
+    final_list[key] = value
+  end     
 end
