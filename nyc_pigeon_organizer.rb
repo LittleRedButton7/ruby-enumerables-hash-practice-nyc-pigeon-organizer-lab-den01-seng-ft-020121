@@ -9,7 +9,9 @@ def nyc_pigeon_organizer(data)
   data.each_with_object({}) do |(key, value), final_list|
 
     value.each do |inner_key, names|
-    binding.pry 
+      names.each do
+        
+      end
     end
     final_list
     
