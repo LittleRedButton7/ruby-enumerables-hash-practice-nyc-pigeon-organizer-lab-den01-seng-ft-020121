@@ -7,9 +7,9 @@ def nyc_pigeon_organizer(data)
   #once we abstract that data, we need to organize by the name being the new key and the hash of attributes being the value 
   
   data.each_with_object({}) do |(key, value), final_list|
-    binding.pry
+
     value.each do |inner_key, names|
-      
+    binding.pry 
     end
     final_list
     
